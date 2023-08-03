@@ -1,0 +1,2 @@
+2023-07-28T07:03:15+00:00 CRITICAL Out of memory (allocated 106954752) (tried to allocate 32768 bytes) in C:\xampp\htdocs\reanaldobelle\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\Helper\ContextTrait.php on line 1
+

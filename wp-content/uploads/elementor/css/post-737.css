@@ -1,0 +1,153 @@
+.elementor-737 .elementor-element.elementor-element-17caadf3{margin-top:50px;margin-bottom:0px;}.woocommerce .elementor-737 .elementor-element.elementor-element-ca76c08 .flex-viewport:not(:last-child){margin-bottom:13px;}.woocommerce .elementor-737 .elementor-element.elementor-element-ca76c08 .flex-control-thumbs img{border-style:none;}.woocommerce .elementor-737 .elementor-element.elementor-element-ca76c08 .flex-control-thumbs li{padding-right:calc(13px / 2);padding-left:calc(13px / 2);padding-bottom:13px;}.woocommerce .elementor-737 .elementor-element.elementor-element-ca76c08 .flex-control-thumbs{margin-right:calc(-13px / 2);margin-left:calc(-13px / 2);}.elementor-737 .elementor-element.elementor-element-7d14bbcd > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:18px;}.elementor-737 .elementor-element.elementor-element-7d14bbcd > .elementor-element-populated{padding:20px 0px 0px 30px;}.elementor-737 .elementor-element.elementor-element-76155ab6{text-align:left;}.elementor-737 .elementor-element.elementor-element-76155ab6 .elementor-heading-title{color:#000000;font-family:"ave", Sans-serif;font-size:20px;font-weight:100;}.elementor-737 .elementor-element.elementor-element-76155ab6 > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-737 .elementor-element.elementor-element-1fcb2493 .elementor-heading-title{color:#000000;font-family:"aviano-flare", Sans-serif;font-size:15px;font-weight:500;}.elementor-737 .elementor-element.elementor-element-1fcb2493 > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-737 .elementor-element.elementor-element-1c0cc07b{text-align:justify;color:#000000;font-family:"ave", Sans-serif;font-size:15px;font-weight:100;}.elementor-737 .elementor-element.elementor-element-272e99b4{text-align:justify;}.elementor-737 .elementor-element.elementor-element-272e99b4 .elementor-heading-title{color:#000000;font-family:"ave", Sans-serif;font-size:15px;font-weight:100;line-height:1.5em;}.elementor-737 .elementor-element.elementor-element-2ce4ac4d .elementor-button{font-family:"ave", Sans-serif;font-size:18px;font-weight:400;background-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-737 .elementor-element.elementor-element-2ce4ac4d .elementor-button:hover, .elementor-737 .elementor-element.elementor-element-2ce4ac4d .elementor-button:focus{color:#FFD25A;}.elementor-737 .elementor-element.elementor-element-2ce4ac4d .elementor-button:hover svg, .elementor-737 .elementor-element.elementor-element-2ce4ac4d .elementor-button:focus svg{fill:#FFD25A;}.elementor-737 .elementor-element.elementor-element-2ce4ac4d > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-737 .elementor-element.elementor-element-3c108a79{text-align:justify;color:#000000;font-family:"ave", Sans-serif;font-size:15px;font-weight:600;}.elementor-737 .elementor-element.elementor-element-6980b264 > .elementor-element-populated{padding:20px 0px 0px 20px;}@media(min-width:768px){.elementor-737 .elementor-element.elementor-element-77d8430b{width:15%;}.elementor-737 .elementor-element.elementor-element-465fab8d{width:35%;}.elementor-737 .elementor-element.elementor-element-7d14bbcd{width:35%;}.elementor-737 .elementor-element.elementor-element-6980b264{width:15%;}}@media(max-width:1024px) and (min-width:768px){.elementor-737 .elementor-element.elementor-element-77d8430b{width:10%;}.elementor-737 .elementor-element.elementor-element-465fab8d{width:50%;}.elementor-737 .elementor-element.elementor-element-6980b264{width:10%;}}@media(max-width:1024px){.elementor-737 .elementor-element.elementor-element-465fab8d > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-737 .elementor-element.elementor-element-7d14bbcd > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:15px;}.elementor-737 .elementor-element.elementor-element-7d14bbcd > .elementor-element-populated{padding:10px 0px 0px 15px;}.elementor-737 .elementor-element.elementor-element-76155ab6 .elementor-heading-title{font-size:17px;}.elementor-737 .elementor-element.elementor-element-76155ab6 > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-737 .elementor-element.elementor-element-1fcb2493 > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-737 .elementor-element.elementor-element-1c0cc07b{font-size:16px;}.elementor-737 .elementor-element.elementor-element-272e99b4 .elementor-heading-title{font-size:16px;line-height:1.4em;}.elementor-737 .elementor-element.elementor-element-2ce4ac4d > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-737 .elementor-element.elementor-element-3c108a79{font-size:17px;}}@media(max-width:767px){.elementor-737 .elementor-element.elementor-element-7d14bbcd > .elementor-element-populated{padding:0px 0px 0px 10px;}}/* Start custom CSS *//* Functionality: Custom thumbnail size in product image gallery
+ * Date:  2021-03-10
+ * Author: Rafael Azuaje
+ */
+
+/* DESKTOP */
+.woocommerce .flex-control-thumbs {
+    margin: 10px 0px 10px -5px !important; /* Thumbnails separation top and bottom */
+    width: 100% !important; /* Controls width of thumbnails container on desktop - Horizontally */
+	display: flex;
+}
+/* Controls thumbnails width on desktop - vertically
+ * Enable this ONLY for VERTICAL display
+ */ 
+ol.flex-control-nav.flex-control-thumbs li {
+	width: 20% !important; 
+}
+/* Enable this ONLY for HORIZONTAL display */
+/*ol.flex-control-nav.flex-control-thumbs li {
+	width: 18% !important; 
+}*/
+
+/* PHONES */
+@media (max-width:414px){
+	ol.flex-control-nav.flex-control-thumbs li {
+		width: 18% !important; /* Controls thumbnails width on mobile - Horizontally */
+	}
+}
+
+/* TABLETS */
+@media (min-width:568px) and (max-width:767px){
+	/* Controls thumbnails container width on tablet - vertically
+	 * Enable this ONLY for VERTICAL display */
+	.woocommerce .flex-control-thumbs {
+    	margin: 10px 0px 10px -5px !important; 
+    	width: 15% !important;
+	}
+	/* Controls width of thumbnails container on tablet - horizontally
+	 * Enable this ONLY for HORIZONTAL display */
+	/*.woocommerce .flex-control-thumbs {
+    	width: 70% !important; 
+	}*/
+	ol.flex-control-nav.flex-control-thumbs li {
+		width: 90% !important; /* Controls thumbnails image width on tablet - vertically */
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px){
+	/* Controls thumbnails container width on tablet - vertically
+	 * Enable this ONLY for VERTICAL display */
+	.woocommerce .flex-control-thumbs {
+    	margin: 10px 0px 10px -5px !important; 
+    	width: 23% !important;
+	}
+	/* Controls width of thumbnails container on tablet - horizontally
+	 * Enable this ONLY for HORIZONTAL display */
+	/*.woocommerce .flex-control-thumbs {*/
+ /*   	width: 70% !important; */
+	/*}*/
+	ol.flex-control-nav.flex-control-thumbs li {
+		width: 100% !important; /* Controls thumbnails image width on tablet - vertically */
+	}
+}
+
+/* Functionality: Product page image thumbnails on left side
+ * Date:  2021-03-10
+ * Author: Rafael Azuaje
+ * Disable this segment if you want to display horizontally
+ */
+@media (min-width:568px) {
+	.woocommerce .flex-control-nav { 
+		position: absolute; 
+		top:-10px; 
+		left: 0px;
+	}
+	.flex-control-thumbs {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (min-width:568px) and (max-width:600px){
+	.woocommerce .flex-viewport {
+		width: 86.5% !important;
+		left: 70px !important;
+	}
+}
+@media (min-width:600px) and (max-width:650px){
+	.woocommerce .flex-viewport {
+		width: 86.5% !important;
+		left: 79px !important;
+	}
+}
+
+@media (min-width:650px) and (max-width:700px){
+	.woocommerce .flex-viewport {
+		width: 86.5% !important;
+		left: 85px !important;
+	}
+}
+
+@media (min-width:700px) and (max-width:768px){
+	.woocommerce .flex-viewport {
+		width: 86.5% !important;
+		left: 90px !important;
+	}
+}
+@media (min-width:768px) and (max-width:801px){
+	.woocommerce .flex-viewport {
+		width:75% !important;
+		left: 85px !important;
+	}
+}
+
+@media (min-width:801px) and (max-width:850px){
+	.woocommerce .flex-viewport {
+		width:75% !important;
+		left: 100px !important;
+	}
+}
+
+@media (min-width:850px) and (max-width:950px){
+	.woocommerce .flex-viewport {
+		width:75% !important;
+		left: 100px !important;
+	}
+}
+
+@media (min-width:950px) and (max-width:1000px){
+	.woocommerce .flex-viewport {
+		width:75% !important;
+		left: 110px !important;
+	}
+}
+@media (min-width:1000px) and (max-width:1024px){
+	.woocommerce .flex-viewport {
+		width:75% !important;
+		left: 120px !important;
+	}
+}
+@media (min-width:1025px) and (max-width:1120px){
+		.woocommerce .flex-viewport {
+		width: 85% !important;
+		left: 70px !important;
+	}	
+}
+
+
+@media (min-width:1120px){
+	.woocommerce .flex-viewport {
+		width: 85% !important;
+		left: 75px !important;
+	}	
+}/* End custom CSS */

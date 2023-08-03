@@ -1,0 +1,2 @@
+2023-07-21T12:08:07+00:00 CRITICAL Out of memory (allocated 102760448) (tried to allocate 32768 bytes) in C:\xampp\htdocs\reanaldobelle\wp-content\plugins\elementor-pro\modules\forms\submissions\data\controller.php on line 1
+

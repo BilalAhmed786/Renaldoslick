@@ -1,0 +1,41 @@
+.elementor-1240 .elementor-element.elementor-element-78ad819 > .elementor-container{min-height:408px;}.elementor-1240 .elementor-element.elementor-element-78ad819:not(.elementor-motion-effects-element-type-background), .elementor-1240 .elementor-element.elementor-element-78ad819 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/reanaldobelle/wp-content/uploads/2023/07/websitelogobanner-1-1-1-11.png");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-1240 .elementor-element.elementor-element-78ad819{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-1240 .elementor-element.elementor-element-78ad819 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1240 .elementor-element.elementor-element-030dfa1{text-align:center;}.elementor-1240 .elementor-element.elementor-element-030dfa1 .elementor-heading-title{color:#F8FDFF;font-family:"AvianoFlare", Sans-serif;font-size:47px;font-weight:300;line-height:60px;-webkit-text-stroke-color:#000;stroke:#000;}.elementor-1240 .elementor-element.elementor-element-1935c7d .elementor-heading-title{color:#202121;font-family:"Avenir", Sans-serif;font-weight:200;}@media(max-width:767px){.elementor-1240 .elementor-element.elementor-element-78ad819 > .elementor-container{min-height:163px;}.elementor-1240 .elementor-element.elementor-element-030dfa1 .elementor-heading-title{font-size:24px;}}/* Start custom CSS for section, class: .elementor-element-e41305e */h1.entry-title {
+    display: none;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'AvianoFlare';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.eot');
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.eot?#iefix') format('embedded-opentype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.woff2') format('woff2'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.woff') format('woff'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.ttf') format('truetype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/AvianoFlareRegular.svg#AvianoFlare') format('svg');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.eot');
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.woff2') format('woff2'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.woff') format('woff'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.ttf') format('truetype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Light.svg#Avenir') format('svg');
+}
+@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular.eot');
+	src: url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular.eot?#iefix') format('embedded-opentype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular.woff2') format('woff2'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular.woff') format('woff'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular.ttf') format('truetype'),
+		url('http://localhost/reanaldobelle/wp-content/uploads/2023/07/Avenir-Regular_1.svg#Avenir') format('svg');
+}
+/* End Custom Fonts CSS */
